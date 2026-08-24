@@ -157,7 +157,7 @@ package MY {
       
       my $test_class_search_dir = 't/lib';
       if (-d $test_class_search_dir) {
-        $make_rule .= SPVM::Builder::Util::API::create_make_rule_native('MyLibpng', {%$options, output_dir => $test_class_search_dir, class_search_dir => [$test_class_search_dir]});
+        $make_rule .= SPVM::Builder::Util::API::create_make_rule_native('TestCase::Resource::Libpng', {%$options, output_dir => $test_class_search_dir, class_search_dir => [$test_class_search_dir]});
       }
     }
     

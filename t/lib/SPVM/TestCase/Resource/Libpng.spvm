@@ -1,4 +1,4 @@
-class MyLibpng {
+class TestCase::Resource::Libpng {
   
   use Resource::Zlib;
   use Resource::Libpng;

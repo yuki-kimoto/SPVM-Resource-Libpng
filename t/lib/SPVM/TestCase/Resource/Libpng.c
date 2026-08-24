@@ -2,8 +2,7 @@
 
 #include <png.h>
 
-int32_t SPVM__MyLibpng__test(SPVM_ENV* env, SPVM_VALUE* stack) {
-  (void)env;
+int32_t SPVM__TestCase__Resource__Libpng__test(SPVM_ENV* env, SPVM_VALUE* stack) {
   
   png_colorp palette;
   
